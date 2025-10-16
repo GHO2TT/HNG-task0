@@ -1,0 +1,86 @@
+body {
+  background: #3f2b96;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(90deg, #3f2b96 0%, #a8c0ff 100%);
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  border-radius: 30px;
+  width: 60%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__left {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.card__right {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.card__bio {
+  text-align: center;
+}
+
+h3,
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0% 10%;
+  margin: 2% 0%;
+}
+
+.card__interests {
+  display: flex;
+  gap: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(68, 68, 68);
+}
+
+a:hover {
+  color: #21116a;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20% 0%;
+    height: auto;
+  }
+  .card {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .card__left,
+  .card__right {
+    width: 100%;
+  }
+
+  .card__interests {
+    align-items: center;
+  }
+}
