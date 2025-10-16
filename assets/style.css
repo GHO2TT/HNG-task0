@@ -45,12 +45,6 @@ h2 {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0% 10%;
-  margin: 2% 0%;
-}
-
 .card__interests {
   display: flex;
   gap: 10%;
